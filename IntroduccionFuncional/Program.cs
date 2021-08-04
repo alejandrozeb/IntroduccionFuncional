@@ -41,9 +41,15 @@ namespace IntroduccionFuncional
                 .Select(d => d.Name.ToUpper());
             //no indicamos el como solo el que
 
-
-
             //conceptos basicos
+            //transparencia referencial
+            // que una expresion depedende del significado de sus subexpresiones
+            //una funcion con parametros recibe otra funcion que recibe los mismos
+            //parametros, ademas estos parametros sean inmutables ademas estas funciones no tienen un efecto colateral
+            //la programacion funcional tiene esta ventaja al momento de hacer concurrencia
+            //en lenguajes no 100 funcionales pero mitiga el riesgo de estos efectos colaterales
+            //en haskel es un lenguaje puramente funcional y mejora el rendimiento.
+            //no modificar coasa globales o pno permitidas.
 
           
 
