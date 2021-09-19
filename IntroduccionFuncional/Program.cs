@@ -4,8 +4,11 @@ using System.Linq;
 
 namespace IntroduccionFuncional
 {
-    class Program
-    {
+    public static class Program
+    {//debe ser public static para hacer extensiones de metodos
+
+        //delegado es una firma
+        public delegate bool Major2<T>(T element);
 
         public class People { 
             public string Name { get; set; }
