@@ -49,7 +49,7 @@ namespace IntroduccionFuncional
             //la programacion funcional tiene esta ventaja al momento de hacer concurrencia
             //en lenguajes no 100 funcionales pero mitiga el riesgo de estos efectos colaterales
             //en haskel es un lenguaje puramente funcional y mejora el rendimiento.
-            //no modificar coasa globales o pno permitidas.
+            //no modificar coasa globales o no permitidas.
 
           
 
